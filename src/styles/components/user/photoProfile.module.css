@@ -1,0 +1,24 @@
+.layout {
+  background-image: var(--my-image);
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  border-radius: 60px;
+}
+
+.image img {
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
+
+.image div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 30px;
+  background: var(--color-bg1);
+  cursor: pointer;
+}
